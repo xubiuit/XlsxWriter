@@ -740,7 +740,7 @@ for a small while that you are using 1 index notation::
 
 .. Note::
    Note: If you specify the "fit to page" option via the ``fit_to_pages()``
-   method it will override all manual page breaks.
+   method it will override all manual page breaks. But there is special case ``set_h_pagebreaks`` might work with option ``worksheet.fit_to_pages(1, 0) # 1 page wide and as long as necessary.``.
 
 There is a silent limitation of 1023 horizontal page breaks per worksheet in
 line with an Excel internal limitation.
